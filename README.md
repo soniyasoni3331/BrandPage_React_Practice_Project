@@ -17,7 +17,7 @@ This project showcases a sample web page built with React and styled using Tailw
 - Easy to customize
 
 ## Installation
-- Clone the repository: git clone https://github.com/your-username/your-repo-name.git
+- Clone the repository: git clone https://github.com/soniyasoni3331/BrandPage_React_Practice_Project
 cd your-repo-name
 - Install dependencies: npm install
 

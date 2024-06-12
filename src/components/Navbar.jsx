@@ -22,13 +22,13 @@ const menu = [
 
 function Navbar() {
   return (
-    <nav className='flex justify-between items-center max-w-[1280px] h-[72px] m-auto'>
+    <nav className='flex justify-between items-center max-w-[1280px] h-[72px] mb-20 md:m-auto mx-2'>
         {/* logo section */}
         <div className=''>
             <img className='w-[76px] h-[42.75px]' src={brand_logo} alt="Logo" />
         </div>
         {/* menu bar section */}
-        <div>
+        <div className='md:block hidden'>
             <ul className='uppercase flex gap-[24px] text-sm'>
             {
                 menu.map((list)=>(
